@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: calibri;
+    box-sizing: border-box;
+} 
+#logo01 {
+    padding-top: 7px;
+}
+#navegacion {
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+	z-index:1000;
+	top:0;
+}
+.menu {
+    list-style: none; 
+    padding: 15px 5px 0px 10px;
+}
+.menu  li {
+    display: inline;
+}
+.menu  li  a {
+    color: #00fc9a;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+.menu li a:hover {
+    color: black;
+    background-color: #00fc9a;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px;
+}
+#logo_login img {
+    position: relative;
+    width: 120px;
+    top: 10px;
+    left: 940px;
+    background-color: rgb(73, 73, 73);
+    border-radius: 10px;
+}
+#seccion_compra { 
+    background-image: url(./principal);
+    background-position-y: 30%;
+    background-size: 100%;
+    width: 100%;
+    height: 550px;
+    border-top: 2.5px solid rgb(73, 73, 73);
+    border-bottom: 2.5px solid rgb(73, 73, 73);
+    margin: 70px 0px 16px 0px;
+    display: flex;
+    justify-content: center;
+}
+#logo_completo { 
+    display: flex;
+    justify-content: center;
+}
+#logo_completo img {
+    width: 257px;
+    margin: 90px 0px 40px 0px;
+}
+#menu_compra {
+    background-color: rgba(73, 73, 73, 0.914);
+    width: 500px;
+    height: 295px;
+    border-radius: 10px;
+    margin-top: 120px;
+    text-align: center;
+}
+#menu_compra li {
+    list-style-type: none;
+}
+#menu_compra li b a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+#menu_compra li b a:hover {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+#paquetes { 
+    background-color: rgb(73, 73, 73);
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 125px 0px 75px 0px;
+}
+#paquetes article {
+    text-align: center;
+    padding: 25px;
+    width: 585px;
+    height: 250px;
+}
+#paquetes article div img {
+    width: 225px;
+    margin: 35px 0px 15px 0px;
+}
+#paquetes article p {
+    margin-bottom: 15px;
+}
+#paquetes article nav b a {
+    text-decoration: none;
+    color: black;
+}
+article {
+    margin-bottom: 50px;
+}
+#particular {
+    background-color: #f2fac0;
+    border-radius: 10px;
+    border: 5px rgb(188, 209, 0);
+    border-style: outset;
+}
+#particular nav b a:hover {
+    background-color: rgb(220, 245, 0);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(176, 173, 0);
+}
+#familiar {
+    background-color: #aff884;
+    border-radius: 10px;
+    border: 5px green;
+    border-style: outset;
+}
+#familiar nav b a:hover {
+    background-color: rgb(56, 170, 56);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 105, 14);
+}
+#student {
+    background-color: #b2c5fa;
+    border-radius: 10px;
+    border: 5px rgb(68, 68, 255);
+    border-style: outset;
+}
+#student nav b a:hover {
+    background-color: rgb(89, 89, 252);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 30, 166);
+}
+#empresarial {
+    background-color: #ffa6a6;
+    border-radius: 10px;
+    border: 5px red;
+    border-style: outset;
+}
+#empresarial nav b a:hover {
+    background-color: rgb(250, 54, 54);
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(156, 0, 0);
+}
+footer {
+    background-color:  #00fc9a;
+    width: 100%;
+    height: 12.5px;
+}

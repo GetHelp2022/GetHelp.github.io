@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: calibri;
+    box-sizing: border-box;
+}
+#franja_azul {
+    background-color: rgb(68, 68, 255);
+    padding-bottom: 12.5px
+}
+#logo_azul {
+   margin: 30px 15px 0px 25px;
+}
+#logo_azul img {
+    width: 257px;
+}
+body {
+    background-color: rgba(73, 73, 73, 0.914);
+}
+article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#seccion01 {
+    background-color: #b2c5fa;
+    border: 5px solid rgb(68, 68, 255);
+    margin: 132px 0px 132px 0px;
+    width: 823px;
+    border-radius: 10px;
+}
+#seccion01 ul {
+    padding: 25px 25px 25px 50px;
+}
+#seccion01 ul li {
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 15px 5px 15px 5px;
+}
+#seccion02 div img {
+    width: 350px;
+    margin-top: 195px;
+    border-radius: 25px;
+}
+footer {
+    background-color: rgb(68, 68, 255);
+    width: 100%;
+    height: 12.5px;
+}
+
+@media screen and (max-width: 480px) {
+    #logo_azul {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px 0px 0px;
+     }
+    #logo_azul img {
+        width: 200px;
+    }
+    #seccion01 {
+        margin: 75.5px 0px -64.5px 0px;
+        width: 400px;
+        height: 530px;
+    }     
+    #seccion01 ul {
+        padding: 5px 10px 15px 10px;
+    }
+    #seccion01 ul li {
+        font-size: 16px;
+        font-weight: lighter;
+        padding: 5px 5px 10px 5px;
+        text-align: center;
+        list-style: none;
+    }   
+    #seccion02 div img {
+        width: 150px;
+        margin-top: 0px;
+        border-radius: 25px;
+        position: relative;
+        bottom: 106px;
+        border: 2.5px solid rgb(68, 68, 255);
+    }
+}

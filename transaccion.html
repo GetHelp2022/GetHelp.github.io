@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Comprar</title>
+        <link rel="stylesheet" href="./transaccion.css">
+        <link rel="icon" href="./G_Logo.png">
+    </head>
+    <body>
+        <header>
+            <div id="franja_verde"></div>   <!--Franja al inicio de la web -->
+        </header>
+        <main>
+            <form id="transaccion">
+                <div id="logo_completo">
+                    <img src="./Logo_PNG.png" alt="logo_completo">
+                </div>    
+                <section id="campos">
+                    <label class="campo"> 
+                        <input type="text" name="name" placeholder="Name" required>
+                    </label>
+                    <label class="campo">
+                        <input type="text" name="card_number" placeholder="Card Number" required>
+                    </label>
+                    <label class="campo">
+                        <input type="text" name="card_month" placeholder="MM" minlength="2" maxlength="2" required>
+                    </label>
+                    <label class="campo">
+                        <input type="text" name="card_year" placeholder="YY" minlength="2" maxlength="2" required>
+                    </label>
+                    <label class="campo">
+                        <input type="text" name="card_cvc" placeholder="CVC (123)" minlength="3" maxlength="4" required>
+                    </label>
+                    <label id="guardar_tarjeta">
+                        <input type="checkbox" name="save_cc" checked="checked"> Guardar tarjeta para futuras compras
+                    </label>
+                </section>
+                <section id="paquetes">
+                    <div>
+                        <input type="checkbox" name="paquetes" id="particular" value="Get Help Particular" required>
+                        <label for="particular"> <img src="./app_amarilla.png" alt="app">20,50€ / mes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="paquetes" id="student" value="Get Help Student" required>
+                        <label for="student"> <img src="./app_azul" alt="app">150€ / mes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="paquetes" id="familiar" value="Get Help Familiar" required>
+                        <label for="familiar"> <img src="./app (verde).png" alt="app">30,50€ / mes</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="paquetes" id="business" value="Get Help Business" required>
+                        <label for="business"> <img src="./app_roja.png" alt="app">210€ / mes</label>
+                    </div>
+                </section>
+                <section id="compra">
+                    <label>
+                        <button type="submit">COMPRAR</button>
+                    </label>
+                </section>
+            </form>
+        </main>
+        <footer></footer>   <!-- Franja verde al final de la web -->
+    </body>
+</html>

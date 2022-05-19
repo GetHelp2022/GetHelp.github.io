@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: calibri;
+    box-sizing: border-box;
+}
+#logo01 {
+    padding-top: 7px;
+}
+#navegacion {
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+	z-index:1000;
+	top:0;
+}
+.menu {
+    list-style: none; 
+    padding: 15px 5px 0px 10px;
+}
+.menu  li {
+    display: inline;
+}
+.menu  li  a {
+    color: #00fc9a;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bolder;
+}
+.menu li a:hover {
+    color: black;
+    background-color: #00fc9a;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px;
+}
+#background01 {
+    display: flex;
+    justify-content: center;
+    background-image: url(./quien_somos.png);
+    background-position-x: -110px;
+    background-position-y: 575px;
+    background-size: 100%;
+    border-top: 2.5px solid rgb(73, 73, 73);
+    border-bottom: 2.5px solid rgb(73, 73, 73);
+    margin: 70px 0px 15px 0px;
+    padding: 112.5px 0px 112.5px 0px;
+}
+#background01 img {
+    width: 257px;
+    height: auto;
+    background-color: rgba(73, 73, 73, 0.914);
+    border-radius: 10px;
+    padding: 10px;
+}
+main {
+    background-color: rgb(73, 73, 73);
+    padding: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+body main section p {
+    text-align: center;
+    font-weight: 500;
+    background-color: rgba(255, 255, 255, 0.911);
+    width: 820px;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 75px;
+}
+main div {
+    padding: 12.5px;
+    background-color: rgba(255, 255, 255, 0.911);
+    border-radius: 10px;
+}
+main div img {
+    width: 800px;
+    border-radius: 10px;
+}
+footer {
+    background-color: #00fc9a;
+    width: 100%;
+    height: 12.5px;
+}
+
+@media screen and (max-width: 480px) {
+    .menu li a {
+        font-size: 15px;
+        padding: 5px;
+        font-weight: bolder;
+    }
+    #seccion_compra {
+        height: 250px;
+    }
+    #logo_completo img {
+        width: 200px;
+        margin: 46px 0px 40px 0px;
+    }    
+    #menu_compra {
+        width: 400px;
+        height: 200px;
+        margin-top: 23px;
+    }
+    #menu_compra li b a {
+        color: white;
+        text-decoration: none;
+        font-size: 16px;
+    }  
+    main {
+        padding: 75px 0px 75px 0px;
+    } 
+    p {
+        font-size: 15px;
+    }
+    #background01 {
+        background-position-x: -110px;
+        background-position-y: 547px;
+        padding: 25px 0px 25px 0px;
+    }
+    #background01 img {
+        width: 200px;
+        border-radius: 5px;
+    }
+    body main section p {
+        width: 400px;
+        margin-bottom: 15px;
+        border-radius: 5px;
+    }
+    main div {
+        padding: 10px;
+        border-radius: 5px;
+    }    
+    main div img {
+        width: 385px;
+        border-radius: 5px;
+    }    
+}

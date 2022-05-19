@@ -1,0 +1,83 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: calibri;
+    box-sizing: border-box;
+}
+#franja_amarillo {
+    background-color: rgb(230, 230, 0);
+    padding-bottom: 12.5px
+}
+#logo_amarillo {
+   margin: 30px 15px 0px 25px;
+}
+#logo_amarillo img {
+    width: 257px;
+}
+body {
+    background-color: rgba(73, 73, 73, 0.914);
+}
+article {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#seccion01 {
+    background-color: #f2fac0;
+    border: 5px solid rgb(188, 209, 0);
+    margin: 158.5px 0px 158.5px 0px;
+    width: 667.5px;
+    border-radius: 10px;
+}
+#seccion01 ul {
+    padding: 25px 25px 25px 50px;
+}
+#seccion01 ul li {
+    font-size: 18px;
+    font-weight: lighter;
+    padding: 15px 5px 15px 5px;
+}
+#seccion02 div img {
+    width: 350px;
+    margin-top: 195px;
+    border-radius: 25px;
+}
+footer {
+    background-color: rgb(230, 230, 0);
+    width: 100%;
+    padding-bottom: 12.5px
+}
+
+@media screen and (max-width: 480px) {
+    #logo_amarillo {
+        display: flex;
+        justify-content: center;
+        margin: 20px 0px 0px 0px;
+     }
+    #logo_amarillo img {
+        width: 200px;
+    }
+    #seccion01 {
+        margin: 83.5px 0px -56.5px 0px;
+        width: 400px;
+        height: 460px;
+    }     
+    #seccion01 ul {
+        padding: 5px 10px 15px 10px;
+    }
+    #seccion01 ul li {
+        font-size: 16px;
+        font-weight: lighter;
+        padding: 5px 5px 10px 5px;
+        text-align: center;
+        list-style: none;
+    }   
+    #seccion02 div img {
+        width: 150px;
+        margin-top: 0px;
+        border-radius: 25px;
+        position: relative;
+        bottom: 115px;
+        border: 2.5px solid rgb(188, 209, 0);
+    }
+}
